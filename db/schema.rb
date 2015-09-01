@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20150901005033) do
 
   create_table "balls", force: true do |t|
     t.string   "name"
-    t.string   "type"
+    t.string   "sport"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -3,7 +3,7 @@ class CreateBalls < ActiveRecord::Migration
     create_table :balls do |t|
 
     	t.string :name
-    	t.string :type
+    	t.string :sport
 
       t.timestamps
     end
